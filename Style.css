@@ -1,0 +1,105 @@
+body{
+    background-color: hsl(45, 25%, 97%);
+}
+@media screen and (max-width: 430px) {
+    main {
+        overflow-y: hidden;
+    }
+    .contenairHeader{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        align-self: center;
+    }
+    .PremierDivDeHeader{
+        transform: scale(0.4);
+        margin-top: -30px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .DeuxiemDivDeHeader{
+        text-align: center;
+        margin-top: -30px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .TroisiemeDivDeHeader{
+        transform: scale(0.6);
+    }
+    aside {display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 431px)  {
+    main {
+        overflow-y: hidden;
+    }
+    .contenairHeader{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        align-self: center;
+    }
+    .PremierDivDeHeader{
+        transform: scale(0.7);
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .DeuxiemDivDeHeader{
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .TroisiemeDivDeHeader{
+        transform: scale(1.5);
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    aside {display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1024px)  {
+    main {
+        overflow-y: hidden;
+    }
+    .contenairHeader{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        align-self: center;
+    }
+    .PremierDivDeHeader{
+        margin-top: 30px;
+        transform: scale(1);
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .DeuxiemDivDeHeader{
+        margin-top: 20px;
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    .TroisiemeDivDeHeader{
+        transform: scale(1.5);
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    aside {display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
